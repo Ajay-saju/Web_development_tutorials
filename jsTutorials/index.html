@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web development journey </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="greeting">Welcome to java script</h1>
+    <!-- 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deleniti hic nihil libero sapiente iusto nemo unde pariatur facilis, similique delectus explicabo sunt ea nisi illum labore? Minus, perspiciatis est.</p>
+    <br>
+    <pre>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus optio veniam placeat corrupti amet ratione fuga, labore atque? Repellendus eos culpa ullam aspernatur explicabo, delectus doloremque doloribus voluptatem dignissimos libero?</pre> -->
+
+    <a href="lyrics.html" target="_blank" title="Goes to lyrics">
+
+        Song lyrics </a>
+    <br><br>
+
+    <a href="https://www.linkedin.com/in/ajay-s-u/">Mail me </a>
+
+
+
+    <h1 id=event1> <span style="background-color: aquamarine;">Introduction to events to javascript</span></h1>
+
+    <button onclick="myEvent()">Click here </button>
+
+    <!------ description list ------>
+
+    <dl style="background-color: chocolate; border: 2px solid;">
+        <dt> Humans </dt>
+        <dd>anatomically similar and related to the great apes but are distinguished by a more highly developed brain
+            and a resultant capacity for articulate speech and abstract reasoning</dd>
+    </dl>
+
+    <!------ Tables ------>
+
+    <table border="2">
+        <tr align="center" style="background-color: rgb(173, 93, 93);">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Fridat</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center" , style="background-color: rgb(231, 144, 22);">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+        </tr>
+
+    </table><br>
+
+    <!-- Forms in html -->
+
+    <Form action="index.js" method="post" enctype="multipart/form-data">
+
+        <label for="qty">Quantity</label>
+        <input id="qty" type="number" max="0" min="099" value="1">
+        <br>
+
+        <label for="title">Title:</label>
+
+        <input type="radio" id="Mr" name="title">
+        <label for="Mr">Mr.</label>
+
+        <input type="radio" id="Ms" name="title">
+        <label for="Ms">Ms.</label>
+
+        <input type="radio" id="phd" name="title">
+        <label for="phd">phD.</label>
+        <br>
+
+        <label for="payment">Payment :</label>
+        <select name="payment" id="peyment">
+            <option value="visa">Visa</option>
+            <option value="master">Master Card</option>
+            <option value="gift">Gift Card</option>
+        </select><br>
+        <label for="sub">Subscribe</label>
+        <input type="checkbox" id="sub"><br>
+
+        <label for="comment">Comments</label>
+        <textarea name="comment" id="comment" rows="3" cols="25"></textarea>
+        <br>
+
+        <label for="file">Files:</label>
+        <input type="file" id="file"><br>
+
+
+    </Form>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

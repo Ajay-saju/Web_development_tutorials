@@ -1,0 +1,52 @@
+.squre{
+   height: 200px;
+   width: 200px;
+   background-color: blueviolet; 
+   /* transition: 1s; */
+   
+}
+.squre:hover{
+    border-radius: 50%;
+    background-color: aquamarine;
+    transition: 1s;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(38, 195, 96);
+
+}
+
+.card {
+    transition-property: opacity, display;
+    transition-duration: 0.25s;
+    transition-behavior: allow-discrete;
+  }
+  
+  .card.fade-out {
+    opacity: 0;
+    display: none;
+  }
+
+  .button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+    transform: scale(1.05);
+  }
+  .imagess{
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1668365187350-05c997d09eba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  }
